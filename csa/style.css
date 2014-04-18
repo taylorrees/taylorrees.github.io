@@ -105,10 +105,11 @@ ul {
     padding-top:50px;
 }
 
+#l-btn {padding-top:500px;}
+
 .grid-el-center {
     text-align:center;
     margin:auto;
-    padding-top:45vh;
 }
 
 .grid-el-text {
@@ -143,13 +144,14 @@ ul {
 
 /* Fullscreen Hero Section */
 
+#top {height:1000px;}
+
 .viewpt-img {
     position:relative;
     width:100%;
-    height:800px;
+    height:100%;
     background-position:center;
     background-size:cover;
-    height:100vh;
 }
 
 .details-title {
