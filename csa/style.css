@@ -281,9 +281,10 @@ ul {
     li { font-size: 14px; }
 }
 
-@media screen and (max-width:820px) {
+@media screen and (max-width:900px) {
     
-    .nav {text-align:left;}
+    p{font-size:16px;}
+    .nav {position:absolute;}
     
     li { 
         padding-left:8px; 
