@@ -277,11 +277,11 @@ ul {
     user-select: none;
 }
 
-@media screen and (max-width: 660px) {
+@media only screen and (max-width: 660px) {
     li { font-size: 14px; }
 }
 
-@media screen and (max-width:900px) {
+@media only screen and (max-width:900px) {
     
     p{font-size:16px;}
     .nav {position:absolute;}
