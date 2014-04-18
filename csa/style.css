@@ -1,0 +1,317 @@
+/*
+Landing Page of Relife
+Designed by Taylor Rees
+Version: 0.1
+Year: 2014
+*/
+
+img { border:0; }
+html, body, section { padding:0; margin:0; width:100%; }
+p { font-family: "proxima-nova",sans-serif; font-weight:400; line-height:30px }
+li { display: inline; padding:30px; }
+h2 {margin:0; margin-bottom:25px;}
+ul {position: relative;}
+img{height: 100%; margin: 0 auto;}
+.wrapper { width:100%; }
+.pad{ padding-left:8%; }
+
+body {
+    background: #fff;
+    color:#191919;
+    font-family: "proxima-nova",sans-serif;
+    font-size: 18px;
+    font-weight:500;
+    line-height:26px;
+}
+
+h1 { 
+    margin:0px; 
+    line-height:1.1;
+    font-size:30px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform:uppercase;
+}
+
+a, a:visited { 
+    text-decoration:none;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+}
+
+a:focus { outline:none; }
+
+ul { 
+    display:inline; 
+    font-family: "Montserrat",sans-serif; 
+    text-transform:uppercase;
+    font-weight:400; 
+    line-height:30px;
+}
+
+.btn {
+    color:#fff;   
+    font-weight:400;
+    text-align:center;
+    padding:6px 25px;
+    border: 3px solid;
+    margin:10px;
+}
+
+.lrge-btn {
+    color:#191919;
+    font-weight:600;
+    font-size:40px;
+    margin:0;
+    padding: 20px 50px;;
+    border: 9px solid;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Navigation */
+
+.nav {
+    position:fixed;
+    background:#191919;
+    opacity:0.99;
+    width:100%;
+    z-index:200;
+    text-align:center;
+    padding-top:25px;
+    padding-bottom:25px;
+     -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-btn {
+    color:#fff;
+}
+
+.menu-btn:hover, .menu-btn:active {
+    padding-bottom:10px;
+    border-bottom: 2px solid;
+}
+
+/* Grid */
+
+.grid { 
+    width:80%;
+    max-width:900px;
+    margin:auto;
+    padding-top:50px;
+}
+
+.grid-el-center {
+    text-align:center;
+    margin:auto;
+    padding-top: 45vh;
+}
+
+.grid-el-text {
+    margin:0;
+    padding-top:10%;
+    padding-bottom:10%;
+    color:#303336;
+}
+
+.grid-row {
+    width:300px;
+    margin-bottom:60px;
+    color:#303336;
+    vertical-align:top;
+}
+
+.underline-w {
+    margin:auto;
+    border-bottom:2px solid;
+    color:#fff;
+    width:60px;
+    height:10px;
+}
+
+.underline-b {
+    padding-top:6px;
+    border-bottom:2px solid;
+    color:#e6e6e6;
+    width:60px;
+    height:10px;
+}
+
+/* Fullscreen Hero Section */
+
+.viewpt-img {
+    position:relative;
+    width:100%;
+    height:100vh;
+    background-position:center;
+    background-size:cover;
+}
+
+.details-title {
+    font-size:32px;
+    padding-top: 30vh;
+    margin-bottom:0px;
+    text-align:center;
+    font-weight:400;
+    color:#fff; 
+}
+
+.details-p { color:#fff; margin-top:10px; }
+.btn-div { margin-top:44px; }
+
+/* Information Section */
+
+/* 3 Row Grid */
+
+.info-rows-l { 
+    height:1020px; 
+    background:#f2f2f1; 
+    overflow:hidden;
+    margin:0;
+    padding-bottom:120px;
+}
+
+.info-rows-r { 
+    height:1000px; 
+    background:#f2f2f1; 
+    overflow:hidden;
+    margin:0;
+    padding-bottom:40px;
+}
+
+.holder-l {padding-top:10%;}
+.holder-r {padding-top:10%; float:right;}
+
+#float-r {
+    position:relative;
+    width:52%;
+    height: 1160px;;
+    float:right;
+    overflow:hidden;
+}
+
+#float-l {
+    position:relative;
+    width:52%;
+    height: 1040px;
+    float:left;
+    overflow:hidden;
+}
+
+.ovrf-hide {
+    position:relative;
+    top:-32px;
+    width:100%;
+    height: 100%;
+    overflow:hidden;
+}
+
+.background-r {
+    display: inline-block;
+    height: 100%;
+    width:100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    opacity:0.9;
+    z-index:0;
+    -webkit-filter: brightness(0.7);
+    -moz-filter: brightness(0.7);
+    -o-filter: brightness(0.7);
+    -ms-filter: brightness(0.7);
+    filter:brightness(0.7);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.background-r:hover{
+    -webkit-filter: brightness(0.8);
+    -moz-filter: brightness(0.8);
+    -o-filter: brightness(0.8);
+    -ms-filter: brightness(0.8);
+    filter:brightness(0.8);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+
+.background-l{
+    display: inline-block;
+    height: 100%;
+}
+
+.cont{
+    width:100%;
+    position:relative;
+    z-index:100;
+    top:500px;
+    text-align:center;
+}
+
+.text-block {
+    color:#fff;
+    font-weight:600;
+    font-size:40px;
+    margin:0;
+    padding: 20px;
+    border: 8px solid;
+    cursor:default;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media screen and (max-width: 660px) {
+    li { font-size: 14px; }
+}
+
+@media screen and (max-width:820px) {
+    
+    .nav {text-align:left;}
+    
+    li { 
+        padding-left:8px; 
+        padding-right:8px; 
+    }
+    
+    .lrge-btn { 
+        font-size:30px;
+        border: 7px solid;
+    }
+    
+    #float-r {
+        width:100%;
+        height:500px;
+    }
+    
+    .cont { top:250px; }
+    .info-rows-l { height:1480px; }
+    .holder-l { padding-top: 530px;}
+    
+    #float-l {
+        width:100%;
+        height:500px;
+    }
+    
+    .info-rows-r { height:1440px; }
+    .holder-r { 
+        padding-top: 530px;
+        float:none;
+    }
+}
