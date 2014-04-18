@@ -6,7 +6,7 @@ Year: 2014
 */
 
 img { border:0; }
-html, body, section { padding:0; margin:0; width:100%; }
+html, body { padding:0; margin:0; width:100%; height:100%;}
 p { font-family: "proxima-nova",sans-serif; font-weight:400; line-height:30px }
 li { display: inline; padding:30px; }
 h2 {margin:0; margin-bottom:25px;}
@@ -108,7 +108,7 @@ ul {
 .grid-el-center {
     text-align:center;
     margin:auto;
-    padding-top: 45vh;
+    padding-top:200px;
 }
 
 .grid-el-text {
@@ -146,14 +146,14 @@ ul {
 .viewpt-img {
     position:relative;
     width:100%;
-    height:100vh;
+    height:100%;
     background-position:center;
     background-size:cover;
 }
 
 .details-title {
     font-size:32px;
-    padding-top: 30vh;
+    padding-top: 40%;
     margin-bottom:0px;
     text-align:center;
     font-weight:400;
@@ -164,6 +164,8 @@ ul {
 .btn-div { margin-top:44px; }
 
 /* Information Section */
+
+.info-sect {background-color:#fff;}
 
 /* 3 Row Grid */
 
@@ -189,7 +191,7 @@ ul {
 #float-r {
     position:relative;
     width:52%;
-    height: 1160px;;
+    height: 1162px;;
     float:right;
     overflow:hidden;
 }
@@ -204,7 +206,7 @@ ul {
 
 .ovrf-hide {
     position:relative;
-    top:-32px;
+    top:-34px;
     width:100%;
     height: 100%;
     overflow:hidden;
