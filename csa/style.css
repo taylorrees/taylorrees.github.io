@@ -206,7 +206,7 @@ ul {
 
 .holder-l {padding-top:10%;}
 .holder-r {
-    margin-top:16%; 
+    margin-top:130px; 
     float:right;  
     text-transform: uppercase; 
     font-size: 16px; 
@@ -339,10 +339,14 @@ ul {
     #l-btn {padding-top:300px;}
     
     .lrge-btn { 
-        font-size:24px;
-        border: 7px solid;
+        font-weight:600;
+        font-size:35px;
+        margin:0;
+        padding: 20px;
+        border: 8px solid;
     }
     
+    .holder-r{float: none; padding-top: 420px; font-size: 14px;}
     .grid{ text-align: center;}
     .grid-row{margin: 10% auto;}
     .grid-row-r{margin: 6% auto;}
@@ -361,11 +365,7 @@ ul {
         height:500px;
     }
     
-    .info-rows-r { height:1440px; }
-    .holder-r { 
-        padding-top: 530px;
-        float:none;
-    }
+    .info-rows-r { height:1360px; }
     .logo-row{background-size: cover;}
     .underline-b{margin: 0 auto;}
     .underline-w{margin: 0 auto;}
