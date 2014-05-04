@@ -41,7 +41,8 @@ a, a:visited {
     -o-transition: all 0.2s ease-out;
 }
 
-a:hover{color: #33CC99;}
+.grid-row-r a:hover{color: #33CC99;}
+.grid-row a:hover{color: #33CC99;}
 a:focus {outline:none; }
 
 ul { 
@@ -62,7 +63,7 @@ ul {
 }
 
 .lrge-btn {
-    color:#191919;
+    color:#202020;
     font-weight:600;
     font-size:40px;
     margin:0;
@@ -77,8 +78,7 @@ ul {
 
 .nav {
     position:fixed;
-    background:#191919;
-    opacity:0.99;
+    background:#202020;
     width:100%;
     z-index:200;
     text-align:center;
@@ -205,7 +205,12 @@ ul {
 }
 
 .holder-l {padding-top:10%;}
-.holder-r {margin-top:16%; float:right;  text-transform: uppercase; font-size: 16px; }
+.holder-r {
+    margin-top:16%; 
+    float:right;  
+    text-transform: uppercase; 
+    font-size: 16px; 
+    }
 
 #float-r {
     position:relative;
@@ -218,7 +223,7 @@ ul {
 #float-l {
     position:relative;
     width:52%;
-    height: 1040px;
+    height: 1042px;
     float:left;
     overflow:hidden;
 }
@@ -298,9 +303,21 @@ ul {
     user-select: none;
 }
 
+.footer-sect{
+    text-align: center;
+    background:#202020;
+    padding-top:35px;
+    padding-bottom:35px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.footer-sect a {color: #fff;}
+
 @media only screen and (max-width: 500px;) {
     li { font-size: 12px;}
-    
+    .holder-r {font-size: 12px;}
     .lrge-btn {
         font-size:14px;
         border: 7px solid;}
@@ -317,6 +334,9 @@ ul {
         padding-right:8px; 
         font-size:14px;
     }
+    
+    .viewpt-img {height: 600px;}
+    #l-btn {padding-top:300px;}
     
     .lrge-btn { 
         font-size:24px;
@@ -348,4 +368,5 @@ ul {
     }
     .logo-row{background-size: cover;}
     .underline-b{margin: 0 auto;}
+    .underline-w{margin: 0 auto;}
 }
