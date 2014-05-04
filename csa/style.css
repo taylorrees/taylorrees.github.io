@@ -34,13 +34,15 @@ h1 {
 
 a, a:visited { 
     text-decoration:none;
+    color: #303336;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     -ms-transition: all 0.2s ease-out;
     -o-transition: all 0.2s ease-out;
 }
 
-a:focus { outline:none; }
+a:hover{color: #33CC99;}
+a:focus {outline:none; }
 
 ul { 
     display:inline; 
@@ -68,6 +70,8 @@ ul {
     border: 9px solid;
     font-family: 'Montserrat', sans-serif;
 }
+
+.lrge-btn:hover{color: #f2f2f1;}
 
 /* Navigation */
 
@@ -105,7 +109,7 @@ ul {
     padding-top:50px;
 }
 
-#l-btn {padding-top:500px;}
+#l-btn {padding-top:420px;}
 
 .grid-el-center {
     text-align:center;
@@ -115,21 +119,27 @@ ul {
 .grid-el-text {
     margin:0;
     padding-top:10%;
-    padding-bottom:10%;
+    padding-bottom:8%;
     color:#303336;
 }
 
 .grid-row {
-    width:300px;
+    width:310px;
     margin-bottom:60px;
     color:#303336;
     vertical-align:top;
 }
 
+.grid-row-r {
+    width:310px;
+    margin-bottom:40px;
+    color:#303336;
+    vertical-align:top;
+}
+
 .underline-w {
-    margin:auto;
     border-bottom:2px solid;
-    color:#fff;
+    color:#e6e6e6;
     width:60px;
     height:10px;
 }
@@ -144,14 +154,20 @@ ul {
 
 /* Fullscreen Hero Section */
 
-#top {height:1000px;}
-
 .viewpt-img {
     position:relative;
     width:100%;
-    height:100%;
+    height:900px;
     background-position:center;
     background-size:cover;
+}
+.logo-row{ 
+    height: 120px; 
+    width: 100%; 
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom:100px ;
 }
 
 .details-title {
@@ -189,7 +205,7 @@ ul {
 }
 
 .holder-l {padding-top:10%;}
-.holder-r {padding-top:10%; float:right;}
+.holder-r {margin-top:16%; float:right;  text-transform: uppercase; font-size: 16px; }
 
 #float-r {
     position:relative;
@@ -307,6 +323,10 @@ ul {
         border: 7px solid;
     }
     
+    .grid{ text-align: center;}
+    .grid-row{margin: 10% auto;}
+    .grid-row-r{margin: 6% auto;}
+    
     #float-r {
         width:100%;
         height:500px;
@@ -326,4 +346,6 @@ ul {
         padding-top: 530px;
         float:none;
     }
+    .logo-row{background-size: cover;}
+    .underline-b{margin: 0 auto;}
 }
