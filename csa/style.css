@@ -255,11 +255,11 @@ ul {
     -ms-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .background-r:hover{
@@ -302,6 +302,52 @@ ul {
     -ms-user-select: none;
     user-select: none;
 }
+
+/* Client Block */
+
+.client-block-el{
+    height: 200px; 
+    width: 200px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.clients-img-sect{
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background-image:url('resources/images/worn-wood.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.client-block-el-1{background-image:url('resources/images/clients/vinci.jpg');}
+.client-block-el-1:hover{background-image:url('resources/images/clients/vinci-col.jpg');}
+
+.client-block-el-2{background-image:url('resources/images/clients/dawn-bw.jpg');}
+.client-block-el-2:hover{background-image:url('resources/images/clients/dawn-col.jpg');}
+
+.client-block-el-3{background-image:url('resources/images/clients/leadbitter.jpg');}
+.client-block-el-3:hover{background-image:url('resources/images/clients/leadbitter-col.jpg');}
+
+.client-block-el-4{background-image:url('resources/images/clients/halo-bw.jpg');}
+.client-block-el-4:hover{background-image:url('resources/images/clients/halo-col.jpg');}
+
+.client-block-el-5{background-image:url('resources/images/clients/jamies-italian.jpg');}
+.client-block-el-5:hover{background-image:url('resources/images/clients/jamies-italian-col.jpg');}
+
+.client-block-el-6{background-image:url('resources/images/clients/burger-king-bw.jpg');}
+.client-block-el-6:hover{background-image:url('resources/images/clients/burger-king-col.jpg');}
+
+.client-block-el-7{background-image:url('resources/images/clients/dunbia-bw.jpg');}
+.client-block-el-7:hover{background-image:url('resources/images/clients/dunbia-col.jpg');}
+
+.client-block-el-8{background-image:url('resources/images/clients/wimpy.jpg');}
+.client-block-el-8:hover{background-image:url('resources/images/clients/wimpy-col.jpg');}
+/* Footer */
 
 .footer-sect{
     text-align: center;
