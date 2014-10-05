@@ -4,6 +4,7 @@ body {
     width: 100%;
     font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
     color: #ffffff;
+    overflow: hidden;
 }
 h1 {
     font-weight: 300;
