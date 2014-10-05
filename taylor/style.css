@@ -61,10 +61,6 @@ ul {
     position: absolute;
     top: 45%;
 }
-.title { 
-    
-} 
-.subtitle {}
 .link {
     padding-bottom: 4px;
     border-bottom: 1px solid #ffffff;
@@ -85,4 +81,17 @@ ul {
 .first-el {
     list-style: none;
     margin-right: 32px;
+}
+@media only screen and (max-width: 500px) {
+    nav {
+        position: relative;
+        top: 15px;
+        left: 60px;
+    }
+    .el {
+        float: none;
+        padding-bottom: 5px;
+        text-align: left;
+        display: block;
+    }
 }
