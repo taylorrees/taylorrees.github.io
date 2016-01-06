@@ -1,80 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="Taylor Rees, designer, developer and maker. Welcome to my portfolio.">
+    <meta name="keywords" content="designer, developer, maker, builder, creator">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <link rel="stylesheet" href="assets/css/style.css" charset="utf-8">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
     <title>Taylor Rees</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link rel="icon" type="image/png" href="/img/logo.png">
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  </head>
+  <body>
 
-        ga('create', 'UA-52043810-3', 'auto');
-        ga('send', 'pageview');
-    </script>
-</head>
-
-<body>
-    <section id="viewer">
-        <div class="container">
-            <div id="logo">
-                <a class="logo-image hide-text" href="http://taylorrees.co">Taylor Rees</a>
-            </div>
-            <div id="intro">
-                <h1 class="title">Hello, I'm Taylor.</h1>
-                <h2 class="subtitle">A <span id="age"></span> year old exploring web design and development. I'm  currently working on <a class="link" href="http://sharemedium.co">sharemedium.co</a> but I also built <a class="link" href="http://jott.cc">jott.cc</a> 
-                </h2>
-            </div>
+    <section id="cover">
+      <div class="cover-image cover-image--fill" style="background:black">
+        <div class="cover-image-overlay">
+          <div class="cover-text">
+            <h1 class="cover-title">Hello, I&rsquo;m Taylor.</h1>
+            <a href="https://twitter.com/@tjmrees" target="_blank" class="button-rounded uppercase">Twitter</a>
+            <a href="https://medium.com/@tjmrees" target="_blank" class="button-rounded uppercase">Medium</a>
+            <a href="https://github.com/taylorrees" target="_blank" class="button-rounded uppercase">Github</a>
+            <a href="mailto:hello@taylorre.es" class="button-rounded uppercase">Email</a>
+            <a href="projects.html" class="button-rounded uppercase">Discover &rarr;</a>
+          </div>
         </div>
+      </div>
     </section>
-    <aside id="side_projects"></aside>
-    <nav>
-        <ul>
-            <li class="el first-el"><a href="http://twitter.com/tjmrees">@tjmrees</a>
-            </li>
-            <li class="el"><a href="mailto:hello@taylorrees.co">hello@taylorrees.co</a>
-            </li>
-            <li class="el"><a target="_blank" href="http://moodboard.taylorrees.co">moodboard</a>
-            </li>
-            <li class="el"><a href="http://medium.com/@tjmrees">notebook</a>
-            </li>
-        </ul>
+
+    <nav class="h-list site-nav">
+      <ul>
+        <li><a class="active" href="index.html">Welcome</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
     </nav>
-    <script>
-        function age() {
-            var date = new Date();
-            var age;
-            var d = date.getDate();
-            var m = date.getMonth();
-            var y = date.getFullYear();
 
-            d = 26 - d;
-            m = 11 - m;
-            y = y - 1996;
-
-            if (d <= 0 && m <= 0) {
-                return age = y;
-            } else {
-                return age = y - 1;
-            }
-        }
-
-        var a = age();
-        var age = document.getElementById('age');
-        age.innerHTML = a;
-    </script>
-</body>
-
+  </body>
 </html>
